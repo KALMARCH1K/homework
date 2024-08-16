@@ -4,7 +4,7 @@ def single_root_words(root_word, *other_words):
     # Проверяем каждое слово из other_words на наличие root_word внутри него или наоборот
     for word in other_words:
         if root_word.lower() in word.lower() or word.lower() in root_word.lower():
-            same_words.append(word.lower())
+            same_words.append(word)
 
     return same_words
 
