@@ -6,6 +6,7 @@ print_params(a=1)
 print_params(b='af', c=False)
 print_params(b=25)
 print_params(c=[1, 2, 3])
+print_params()
 values_list = [0, 'yes', {'you': 'tube'}]
 values_dict = {'a': 2, 'c': 'eeee', 'b': False}
 print_params(*values_list)
