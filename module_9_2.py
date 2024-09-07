@@ -1,4 +1,4 @@
-    first_strings = ['Elon', 'Musk', 'Programmer', 'Monitors', 'Variable']
+first_strings = ['Elon', 'Musk', 'Programmer', 'Monitors', 'Variable']
 second_strings = ['Task', 'Git', 'Comprehension', 'Java', 'Computer', 'Assembler']
 
 first_result = [len(x) for x in first_strings if len(x) >= 5]
